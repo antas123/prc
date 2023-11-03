@@ -1,3 +1,4 @@
+import Bishop from "./components/Bishop";
 import Counter from "./components/Counter";
 import Data from "./components/Data";
 import Game from "./components/Game";
@@ -10,7 +11,8 @@ function App() {
   // <Counter/>
   // <Game/>
   // <Progress/>
-  <MakeMy/>
+  // <MakeMy/>
+  <Bishop/>
   );
 }
 
