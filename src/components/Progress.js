@@ -23,31 +23,25 @@ const Progress = () => {
 
   return (
     <>
-      <div>
+      <div style={{textAlign:"center"}}>
         <div
-          className="prg"
           style={{
             overflow: "hidden",
             width: "500px",
             margin: "auto",
-            height: "20px",
             borderRadius: "15px",
             border: "1px solid black",
           }}
         >
           <span
             style={{
-              display: "flex",
               position: "absolute",
-              width: "500px",
-              justifyContent: "center",
-              alignItems: "center",
               color: percent>49?"white":"black"
             }}
           >
             {percent}%
           </span>
-          <div style={{ width: `${percent}%`, height: "20px" }} />
+          <div style={{ width: `${percent}%`, height: "20px", backgroundColor:"green" }} />
         </div>
       </div>
       <button onClick={handleStart}>start</button>

@@ -50,7 +50,7 @@ const Bishop = () => {
             style={{
               width: "60px",
               height: "60px",
-              border: "2px solid black",
+              border: "1px solid black",
               display:"inline-block",
               margin:"0px",
               backgroundColor: (i+j)%2===1?"white":"black",
